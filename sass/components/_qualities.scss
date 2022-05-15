@@ -1,0 +1,36 @@
+.qualities {
+    padding-bottom: 96px;
+    padding-top: 96px;
+  }
+  .qualities__list {
+    display: flex;
+    justify-content: space-between;  
+            
+  }
+  .qualities__item {
+    display: flex;
+    height: 120px;
+    width: 270px;
+    background-color: var(--light-background);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+  .qualities__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.146;
+    text-transform: uppercase;
+    color: var(--title-text-color);
+  }
+
+  .qualities__text {
+    width: 270px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
